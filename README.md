@@ -1,140 +1,144 @@
-E-Commerce Sales Analytics
-1. Project Overview
+#  E-Commerce Sales Analytics
 
-The E-Commerce Sales Analytics project analyzes e-commerce sales data to identify important sales trends, customer purchasing patterns, product performance, and business opportunities.
-The project uses Python for data cleaning and exploratory data analysis, visualization techniques for understanding patterns, and Power BI for creating an interactive business dashboard.
-The main objective is to transform raw sales data into meaningful business insights that can support better decision-making.
-
-2. Problem Statement
-E-commerce businesses generate large amounts of sales data, but raw data alone does not provide clear information about business performance.
-
-This project aims to analyze e-commerce sales data to:
-Understand overall sales performance
-Identify high-performing products/categories
-Analyze sales trends
-Identify low-performing areas
-Understand customer purchasing patterns
-Provide data-driven recommendations
-
-3. Dataset Description
-The project uses an E-Commerce Sales Dataset containing information related to sales transactions.
-The dataset was inspected and prepared before performing analysis.
-
-Important attributes include sales-related information such as:
-Order information
-Product information
-Customer information
-Quantity
-Sales/Revenue
-Date-related information
-Category/sub-category information
-
-Important: Use the exact column names from your CSV here rather than inventing names.
+## Project Overview
+This project is an end-to-end E-Commerce Sales Data Analytics project developed as part of the Data Analytics Internship Week 6 Final Project.
+The project analyzes e-commerce sales data to identify sales trends, category performance, product performance, and important business insights.
+The project uses Python for data analysis and visualization and Power BI for creating an interactive business dashboard.
 
 
-4. Tools Used
-Tool	Purpose
-Python	Data analysis
-Pandas	Data cleaning and manipulation
-NumPy	Numerical analysis
-Matplotlib	Data visualization
-Seaborn	Statistical visualization
-Jupyter Notebook	EDA and analysis
-Power BI	Interactive dashboard
-Git	Version control
-GitHub	Project repository
+## Problem Statement
+The objective of this project is to analyze e-commerce sales data and identify important trends and patterns that can help businesses understand their sales performance and make data-driven decisions.
 
-5. Data Cleaning Process
+The analysis focuses on:
+- Overall sales performance
+- Sales trends
+- Category performance
+- Product performance
+- Customer/order patterns
+- Identification of high and low performing areas
 
-The dataset was prepared before analysis using the following steps:
-Loaded the dataset using Pandas.
-Inspected the dataset structure.
-Checked column names and data types.
-Identified missing values.
-Handled missing values where required.
-Checked for duplicate records.
-Removed incorrect or duplicate records where necessary.
-Checked numerical values for inconsistencies.
-Converted columns to appropriate data types.
-Prepared the final cleaned dataset for EDA and visualization.
 
-6. Exploratory Data Analysis (EDA)
-Exploratory Data Analysis was performed to understand the structure and characteristics of the dataset.
+## Dataset Description
+The dataset contains e-commerce sales information used to analyze business performance.
 
+Important fields include:
+- Order ID
+- Order Date
+- Product
+- Category
+- Sales
+- Quantity
+- Customer information
+- Other relevant sales attributes
+
+The dataset was inspected and prepared before performing exploratory data analysis.
+
+
+## Tools Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+- Power BI
+- Git
+- GitHub
+
+##  Data Cleaning Process
+The following data preparation steps were performed:
+
+1. Loaded the dataset using Pandas.
+2. Inspected the dataset structure.
+3. Checked column names and data types.
+4. Checked for missing values.
+5. Handled missing values where required.
+6. Checked for duplicate records.
+7. Removed incorrect or unnecessary records where required.
+8. Converted relevant columns into appropriate data types.
+9. Prepared the cleaned dataset for analysis.
+
+
+##  Exploratory Data Analysis
+
+Exploratory Data Analysis was performed to understand the dataset and identify important patterns.
 The analysis included:
-Dataset inspection
-Descriptive statistics
-Missing-value analysis
-Duplicate-value analysis
-Distribution analysis
-Correlation analysis
-Sales trend analysis
-Product/category performance analysis
-Outlier identification
 
-The EDA helped identify important patterns and relationships within the sales data.
-
-7. Data Visualizations
-Several visualizations were created to communicate important findings from the dataset.
-
-The project includes at least five visualizations, such as:
-Sales trend analysis
-Product/category performance
-Revenue comparison
-Customer/sales analysis
-Correlation analysis
-
-Each visualization was designed with appropriate titles, labels, and meaningful comparisons.
-
-8. Power BI Dashboard
-An interactive E-Commerce Sales Analytics Dashboard was created using Power BI.
-
-The dashboard includes:
-KPI Cards
-Total Sales
-Total Orders
-Average Sales / Order
-Visualizations
-Sales trend
-Category/product performance
-Regional/customer analysis
-Other important business metrics
-Interactive Features
+- Descriptive statistics
+- Dataset inspection
+- Missing-value analysis
+- Duplicate checking
+- Correlation analysis
+- Sales trend analysis
+- Category analysis
+- Product performance analysis
+- Outlier identification
 
 
-9. Key Business Insights
-Write the actual 5 insights from your analysis here.
+## Data Visualizations
 
-Use this format:
-Insight 1 — Overall Sales Performance
-The analysis shows the overall sales performance and identifies the major contributors to revenue.
+The project includes multiple visualizations to communicate important findings.
 
-Insight 2 — Product/Category Performance
-The highest-performing products/categories contribute significantly to total sales, while some categories show comparatively lower performance.
+### Sales Trend
+Shows how sales change over time.
 
-Insight 3 — Sales Trends
-Sales vary across different periods, indicating important seasonal or time-based trends.
+### Category Performance
+Compares sales performance across different product categories.
 
-Insight 4 — High and Low Performing Areas
-Certain products/categories/regions demonstrate stronger performance, while low-performing areas represent potential improvement opportunities.
+### Product Performance
+Identifies high and low performing products.
 
-Insight 5 — Customer/Sales Pattern
-The analysis identifies important customer purchasing or transaction patterns that can help improve sales strategies.
+### Sales Distribution
+Shows the distribution of sales values.
+
+### Correlation Analysis
+Helps understand relationships between numerical variables.
 
 
-10. Business Recommendations
-Recommendation 1 — Focus on High-Performing Products
-The business should prioritize high-performing products/categories by maintaining adequate inventory and promoting them through targeted marketing campaigns.
+## Power BI Dashboard
+An interactive Power BI dashboard was created to provide a clear overview of e-commerce sales performance.
 
-Recommendation 2 — Improve Low-Performing Areas
-Low-performing products/categories/regions should be investigated further. Businesses can use targeted discounts, promotions, pricing strategies, or marketing campaigns to improve their performance.
+### Dashboard Features
+- KPI Cards
+- Sales analysis
+- Category analysis
+- Product analysis
+- Sales trends
+- Interactive filters/slicers
 
-Recommendation 3 — Use Sales Trends for Planning
-Historical sales trends can be used to improve inventory planning, marketing campaigns, and future sales forecasting.
+### Key KPIs
+- Total Sales
+- Total Orders
+- Total Quantity
 
-11. Conclusion
+Dashboard screenshot:
 
-The E-Commerce Sales Analytics project demonstrates how raw sales data can be transformed into meaningful business information using data analytics techniques.
-Python was used for data cleaning, exploratory analysis, and visualization, while Power BI was used to create an interactive dashboard.
-The analysis identified important sales trends, high- and low-performing areas, and potential opportunities for business improvement.
-Overall, the project demonstrates an end-to-end data analytics workflow from data preparation to business decision-making.
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/69c9d7f5-4e0a-4bed-b73a-0c5efbb0f685" />
+
+
+
+## Key Business Insights
+
+1. The analysis identifies the overall sales performance of the e-commerce business.
+2. Sales trends show how business performance changes over time and help identify high and low sales periods.
+3. Category-level analysis highlights the categories contributing the most and least to total sales.
+4. Product-level analysis identifies high-performing and low-performing products.
+5. The Power BI dashboard provides an interactive way to explore sales performance using filters and visualizations.
+
+##  Business Recommendations
+### Recommendation 1
+Focus marketing and promotional activities on high-performing product categories and products to increase revenue.
+
+### Recommendation 2
+Investigate low-performing products and categories and consider pricing adjustments, targeted promotions, or inventory optimization.
+
+### Recommendation 3
+Use sales trends to plan inventory and marketing activities during high-demand periods.
+
+
+##  Conclusion
+
+This project demonstrates an end-to-end data analytics workflow starting from data preparation and exploratory analysis to visualization, Power BI dashboard development, and business recommendations.
+
+The project demonstrates practical skills in Python, data analysis, visualization, Power BI, Git, and GitHub.
+
